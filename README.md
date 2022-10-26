@@ -3,7 +3,7 @@
 ### Introducción
 El objetivo de este trabajo es comprobar qué tan reales son los puntajes otorgados en el videojuego de fútbol “FIFA 23”. Trataremos de encontrar en el set de datos el equipo ideal consistiendo de 11 jugadores profesionales. Luego, podremos comparar el resultado obtenido con el Equipo ideal del Mundial de Qatar 2022. Podremos observar si el equipo coincide, o cuántos de los jugadores se encuentran en este. Veremos que tanto se asemeja la base de datos del juego respecto a lo que ocurre en el torneo más importante del fútbol y evento deportivo más visto del mundo.
 
-### Importamos el archivo con el dataset completo que sacamos de Kaggle. 
+### Importamos el archivo con el dataset completo que sacamos de Kaggle 
 Para hacer este paso tuvimos que crear la variable "path" y, a su vez, importamos las librerías correspondientes que se ven en la segunda parte del código. 
 
   ```python
@@ -22,7 +22,7 @@ Para hacer este paso tuvimos que crear la variable "path" y, a su vez, importamo
   df.describe
   ```
 
-### Chequeo de los tipos de datos de cada columna.
+### Chequeo de los tipos de datos de cada columna
 Hay que corroborar que los tipos de datos de las columnas sean los adecuados. En este caso eran todos correctos, entonces no hubo que corregirlos.
 
 ```python
@@ -30,7 +30,7 @@ Hay que corroborar que los tipos de datos de las columnas sean los adecuados. En
 df.dtypes
  ```
  
-### Nos aseguramos de que todas las columnas tengan valores completos en cada fila.
+### Nos aseguramos de que todas las columnas tengan valores completos en cada fila
 Como sabemos la cantidad de filas que hay, contamos la cantidad de valores completos de cada columna. Con esto comprobamos que todas las celdas estaban completas con la información pertinente.
  
 ```python
@@ -38,7 +38,7 @@ Como sabemos la cantidad de filas que hay, contamos la cantidad de valores compl
 df.count()
  ```
  
-### Eliminación de columnas que no contribuyen al análisis.
+### Eliminación de columnas que no contribuyen al análisis
 Para nuestro análisis decidimos no utilizar las columnas "Id" y "Salario". Esto se debe a que el "Id" no es útil para lograr "insights" y consideramos que el "Salario" es información que puede llegar a ser falsa ya que es información confidencial de los clubes.
  
 ```python
@@ -55,7 +55,7 @@ df = df.rename(columns={"Nom":"Nombre","Général":"General","Potentiel":"Potenc
 df.head(5)
 ```
  
-### Comenzamos el análisis de datos.
+### Comenzamos el análisis de datos
 Para realizar el análisis y entender cómo estaba compuesta la muestra, decidimos ver qué país contaba con la mayor cantidad de jugadores.
  
 ```python
@@ -64,7 +64,7 @@ top = df['Pais'].value_counts().head(10)
 top
 ```
  
-### Desplegamos dicha información en un gráfico.
+### Desplegamos dicha información en un gráfico
 Aquí el gráfico mostrará los países con mayor cantidad de jugadores en el FIFA 23.
  
  ```python
