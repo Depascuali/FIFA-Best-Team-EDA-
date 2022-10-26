@@ -140,7 +140,7 @@ df.head(3)
 ```
  
 ### Conclusión
-En conclusión, el problema que buscamos solucionar a lo largo de este EDA es saber que tán precisos son los puntajes del fifa con respecto a los rendimientos de los jugadores. Para esto, analizaremos posteriormente del mundial, si los 11 jugadores que seleccionamos fueron protagonistas de dicho evento deportivo. Además, la FIFA una vez finalizado el mundial publicará el once ideal del mundial, si algunos de esos jugadores coinciden con nuestro 11 ideal del EDA se podrá tener una idea de qué tan reales son los puntajes que pone el juego FIFA 23 y como comparar el rendimiento real de los jugadores. 
+En conclusión, el problema que buscamos solucionar a lo largo de este EDA es saber que tán precisos son los puntajes del fifa con respecto a los rendimientos de los jugadores. Para esto, analizaremos posteriormente del mundial, si los 11 jugadores que seleccionamos fueron protagonistas de dicho evento deportivo. Además, la FIFA una vez finalizado el mundial publicará el once ideal del mundial, si algunos de esos jugadores coinciden con nuestro 11 ideal del EDA se podrá tener una idea de qué tan reales son los puntajes que pone el juego FIFA 23 y comparar el rendimiento real de los jugadores. 
 
 
 
