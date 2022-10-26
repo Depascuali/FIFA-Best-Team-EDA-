@@ -1,4 +1,4 @@
-# EDA-fifa
+# EDA-FIFA23 
 
 ### Introducción
 El objetivo de este trabajo es comprobar qué tan reales son los puntajes otorgados en el videojuego de fútbol “FIFA 23”. Trataremos de encontrar en el set de datos el equipo ideal consistiendo de 11 jugadores profesionales. Luego, podremos comparar el resultado obtenido con el Equipo ideal del Mundial de Qatar 2022. Podremos observar si el equipo coincide, o cuántos de los jugadores se encuentran en este. Veremos que tanto se asemeja la base de datos del juego respecto a lo que ocurre en el torneo más importante del fútbol y evento deportivo más visto del mundo.
@@ -141,3 +141,11 @@ df.head(3)
  
 ### Conclusión
 En conclusión, el problema que buscamos solucionar a lo largo de este EDA es saber que tán precisos son los puntajes del fifa con respecto a los rendimientos de los jugadores. Para esto, analizaremos posteriormente del mundial, si los 11 jugadores que seleccionamos fueron protagonistas de dicho evento deportivo. Además, la FIFA una vez finalizado el mundial publicará el once ideal del mundial, si algunos de esos jugadores coinciden con nuestro 11 ideal del EDA se podrá calcular qué tan reales son los puntajes que pone el juego FIFA 23. 
+
+
+
+
+Tomas Depascuali 61366
+
+
+Joaquin Constenla 61285
