@@ -145,7 +145,4 @@ En conclusión, el problema que buscamos solucionar a lo largo de este EDA es sa
 
 
 
-Tomas Depascuali 61366
-
-
-Joaquin Constenla 61285
+Tomas Depascuali
